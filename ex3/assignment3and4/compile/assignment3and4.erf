@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and code coverage will not be available." 
+MESSAGE "File: D:\user\runholm\assignment3and4\assignment3and4\src\TestBench\TB_liaison.vhd" 
+MESSAGE "Compile Entity "tb_liaison"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "tb_liaison"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_liaison"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]" 

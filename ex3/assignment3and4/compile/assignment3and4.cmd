@@ -1,0 +1,1 @@
+-w -s "D:\user\runholm\assignment3and4\library.cfg"  -j "D:\user\runholm\assignment3and4\assignment3and4\projlib.cfg"  -d "D:\user\runholm\assignment3and4\assignment3and4\compile"   -work assignment3and4  -O3 -e 100 -2002 "D:\user\runholm\assignment3and4\assignment3and4\src\TestBench\TB_liaison.vhd" 

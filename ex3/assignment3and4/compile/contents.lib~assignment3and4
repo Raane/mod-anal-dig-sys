@@ -1,0 +1,6 @@
+279
+~E 1 "./src/TestBench/TB_liaison.vhd" 7 tb_liaison
+~A 1 "./src/TestBench/TB_liaison.vhd" 10 tb_architecture
+~E 1 "./src/liaison.vhd" 37 liaison
+~A 1 "./src/liaison.vhd" 51 behavioral
+~C 1 "./src/TestBench/TB_liaison.vhd" 119 testbench_for_liaison

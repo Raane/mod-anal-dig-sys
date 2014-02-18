@@ -95,6 +95,7 @@ begin
 end process;
 
 -- Set the voted data based on the status and the sum of the input data
+-- This is the core of the state machine driving the system
 process (sum_of_inputs)
 begin
     case last_status is
