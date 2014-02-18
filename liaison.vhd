@@ -84,6 +84,16 @@ begin
     end if;
 end process;
 
+-- Calculate the sum of the inputs from all the non broken controllers
+process (a, b, c, d, state_a, state_b, state_c, state_d)
+begin
+    sum_of_inputs <= std_logic_vector(
+	unsigned(std_logic_vector("00"&(a and state_a))) + 
+	unsigned(std_logic_vector("00"&(b and state_b))) + 
+	unsigned(std_logic_vector("00"&(c and state_c))) + 
+	unsigned(std_logic_vector("00"&(d and state_d))));
+end process;
+
 -- Set the voted data based on the status and the sum of the input data
 process (sum_of_inputs)
 begin
@@ -128,16 +138,7 @@ begin
     end case;
 end process;
 
--- Calculate the sum of the inputs from all the non broken controllers
-process (a, b, c, d, state_a, state_b, state_c, state_d)
-begin
-    sum_of_inputs <= std_logic_vector(
-	unsigned(std_logic_vector("00"&(a and state_a))) + 
-	unsigned(std_logic_vector("00"&(b and state_b))) + 
-	unsigned(std_logic_vector("00"&(c and state_c))) + 
-	unsigned(std_logic_vector("00"&(d and state_d))));
-end process;
-
+-- Calculate the number of votes that matched the vote outcome which came from an input with state '1' 
 process(voted_data, a, b, c, d)
 begin
 	number_of_winning_votes <= std_logic_vector(
@@ -151,19 +152,23 @@ end process;
 -- Calculate the internal status field based on the inputs matched with the voted data
 process (number_of_winning_votes)
 begin
-    case number_of_winning_votes is
-        when "100"=>
-            status_internal <= "000";
-        when "011"=>
-            status_internal <= "001";
-        when "010"=>
-            status_internal <= "010";
-        when "001"=>
-            status_internal <= "111";
-        when "000"=>
-			status_internal <= "111";
-		when others =>
-	end case;
+	if(number_of_winning_votes = "010" and last_status = "000") then
+		status_internal <= "111";
+	else
+    	case number_of_winning_votes is
+        	when "100"=>
+            	status_internal <= "000";
+        	when "011"=>
+            	status_internal <= "001";
+        	when "010"=>
+            	status_internal <= "010";
+        	when "001"=>
+            	status_internal <= "111";
+        	when "000"=>
+				status_internal <= "111";
+			when others =>
+		end case;			  
+	end if;
 end process;
 
 end Behavioral;
