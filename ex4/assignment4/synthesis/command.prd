@@ -1,0 +1,13 @@
+#-- Synplicity, Inc.
+#-- Version C-2009.06
+#-- Project file C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\synthesis\command.prd
+#-- Written on Tue Feb 18 16:18:46 2014
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

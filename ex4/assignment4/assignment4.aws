@@ -1,0 +1,14 @@
+[Version]
+Version=8.2
+[Designs]
+assignment4=.\assignment4.adf
+[Settings]
+Active=assignment4
+[Browser]
+sort=type
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+assignment4=1

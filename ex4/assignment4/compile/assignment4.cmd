@@ -1,0 +1,1 @@
+-w -s "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\library.cfg"  -j "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\projlib.cfg"  -d "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\compile"   -work assignment4  -O3 -e 100 -o -2002 "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\src\liaison.vhd" 

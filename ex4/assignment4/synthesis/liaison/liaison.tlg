@@ -1,0 +1,4 @@
+@N: CD630 :"C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\src\liaison.vhd":37:7:37:13|Synthesizing assignment4.liaison.behavioral 
+Post processing for assignment4.liaison.behavioral
+@W: CL117 :"C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\src\liaison.vhd":180:1:180:2|Latch generated from process for signal status_internal(2 downto 0), probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex4\assignment4\src\liaison.vhd":117:4:117:7|Latch generated from process for signal voted_data, probably caused by a missing assignment in an if or case stmt
