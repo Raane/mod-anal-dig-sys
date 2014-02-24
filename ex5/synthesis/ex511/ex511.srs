@@ -1,0 +1,53 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version comp400rc, Build 020R from Synplicity, Inc.
+# Copyright 1994-2009 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Mon Feb 24 09:13:11 2014
+#
+#
+#OPTIONS:"|-top|ex5.ex511|-dspmac|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|ex5"
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\bin\\c_vhdl.exe":1242891102
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\lib\\vhd\\location.map":1242828386
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\lib\\vhd\\std.vhd":1242745776
+#CUR:"C:\\Users\\Student\\Documents\\GitHub\\mod-anal-dig-sys\\ex5\\src\\ex5-1-1.vhd":1393229589
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\lib\\vhd\\std1164.vhd":1242745776
+f "C:\Program Files (x86)\Synplicity\fpga_C200906\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\ex5-1-1.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_C200906\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@c4::c(::R44CRG6C4G64GRC6;44
+RNP3PH#ER8D4N;
+PHR3#E_P84DR;P
+NR$3#Ml_VN"bRCRG6\:"B\#\zC\s#\k1080CM\F\7OCklM\0#\0tH]\kL\8lF-NNMDH-8o$-##C\\G\6\#\sO\6CG-44-38PE\""
+;
+
+
+
+@HR@n4::nd::R4.O8FMHF0HMO4RFHM80MHF4N;
+HsR30FD_sMHoNRlC"MOF8HH0F"M4;
+
+
+
+@HR@(4::(d::R4.O8FMHF0HMO.RFHM80MHF.N;
+HsR30FD_sMHoNRlC"MOF8HH0F"M.;
+
+
+
+@FR@U4::Ud::FURkk0b0kRF00bk;H
+NR03sDs_FHNoMl"CRFbk0k;0"
+@bR@44:(::.4d(:RPHMR0FkbRk0Fbk0kF0Rkk0b0;_4
+@bR@4j::44::0.RsRkC0CskRk0sCb;
+Rj@@:44::.4:RDVN#VCRNCD#RDVN#
+C;b@R@4(:4:4.:(R:dDsN0#kRF00bk_F4Rkk0b0R_40CskRDVN#OCRFHM80MHF4FROM08HH.FM;H
+NR03sDs_FHNoMl"CRFbk0k;0"
+
+C;

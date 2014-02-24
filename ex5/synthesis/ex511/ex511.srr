@@ -1,0 +1,169 @@
+#Build: Synplify Pro C-2009.06, Build 063R, May 19 2009
+#install: C:\Program Files (x86)\Synplicity\fpga_C200906
+#OS:  6.1
+#Hostname: SIMULA
+
+#Implementation: ex511
+
+#Mon Feb 24 09:13:11 2014
+
+$ Start of Compile
+#Mon Feb 24 09:13:11 2014
+
+Synopsys VHDL Compiler, version comp400rc, Build 020R, built May 20 2009
+Copyright (C) 1994-2009, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files (x86)\Synplicity\fpga_C200906\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+Top entity isn't set yet!
+VHDL syntax check successful!
+File C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\ex5-1-1.vhd changed - recompiling
+@N: CD630 :"C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\ex5-1-1.vhd":4:7:4:11|Synthesizing ex5.ex511.ex511 
+Post processing for ex5.ex511.ex511
+@W: CL117 :"C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\ex5-1-1.vhd":17:2:17:3|Latch generated from process for signal output, probably caused by a missing assignment in an if or case stmt
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 24 09:13:11 2014
+
+###########################################################]
+Synopsys Xilinx Technology Mapper, Version map450rc, Build 029R, Built May 22 2009 15:55:09
+Copyright (C) 1994-2009, Synopsys Inc.  All Rights Reserved
+Product Version C-2009.06
+@W|Ignoring top level module 'ex5.ex511' as specified in project file
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files (x86)\Synplicity\fpga_C200906\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files (x86)\Synplicity\fpga_C200906\lib\xilinx\gttype.txt> 
+@N|Running in logic synthesis mode without enhanced optimization
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:ex5.ex511(ex511):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Writing Analyst data base C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\synthesis\ex511\ex511.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files (x86)\Synplicity\fpga_C200906\lib\xilinx\netattr.txt> 
+C-2009.06
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Writing VHDL Simulation files
+Finished Writing VHDL Simulation files (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 24 09:13:13 2014
+#
+
+
+Top view:               ex511
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for ex511 
+
+Mapping to part: xc4vfx12sf363-12
+Cell usage:
+GND             1 use
+LDCP            1 use
+LUT2            1 use
+
+I/O ports: 3
+I/O primitives: 3
+IBUF           2 uses
+OBUF           1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   0 (0%)
+I/O Latch bits:                     1
+Total load per clock:
+
+Mapping Summary:
+Total  LUTs: 1 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 24 09:13:13 2014
+
+###########################################################]

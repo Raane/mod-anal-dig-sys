@@ -1,0 +1,14 @@
+[Version]
+Version=8.2
+[Designs]
+ex5=.\ex5.adf
+[Settings]
+Active=ex5
+[Expand]
+ex5=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

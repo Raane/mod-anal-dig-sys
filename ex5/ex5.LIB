@@ -1,0 +1,49 @@
+timestamp=1393230342508
+
+[design1]
+A/design1=21|./src/design1.vhd|14|1*5499
+B/design1=3*2300
+C=8.2.1986.3485  (Windows)
+C/design1=8.2.1986.3485  (Windows)
+I=0*2694
+I/design1=0*3134
+M=11|0|v63|1393230139877|./src/design1.vhd|0*2371*0x656bd8680624195ded5346bea86f87b07a06d9aa|0*2622*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/design1=21|0|v63|1393230342333|./src/design1.vhd|0*2795*0x573a47efca029933021e89d281a7d768633fa42b|0*3051*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/design1.vhd|4
+
+[design2]
+A/design2=21|./src/design2.vhd|14|1*6767
+B/design2=3*3026
+C=8.2.1986.3485  (Windows)
+C/design2=8.2.1986.3485  (Windows)
+I=0*3762
+I/design2=0*4202
+M=11|0|v63|1393230333108|./src/design2.vhd|0*3439*0xcd52b7d6d4eaff7c6f6b5b2ff4306ac5f5f01b60|0*3690*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/design2=21|0|v63|1393230342423|./src/design2.vhd|0*3863*0x05e55a700df3b52fe0c3ada44437b7bdfbfafd3e|0*4119*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/design2.vhd|4
+
+[ex511]
+A/ex511=21|./src/ex5-1-1.vhd|12|1*4479
+B/ex511=3*1876
+C=8.2.1986.3485  (Windows)
+C/ex511=8.2.1986.3485  (Windows)
+I=0*1217
+I/ex511=0*1625
+M=11|0|v63|1393229914297|./src/ex5-1-1.vhd|0*923*0x1d09322c56787dd1eb353b0d8881e670ccf2d546|0*1147*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+M/ex511=21|0|v63|1393230342233|./src/ex5-1-1.vhd|0*1316*0x7709c5752cd786b24fcdfee637527442a587bf0c|0*1546*0xfce7a17cbf8a959a0c8fb6f5d0fad10d
+R=./src/ex5-1-1.vhd|4
+
+[~A]
+ModifyID=53
+Version=73
+
+[~MFT]
+0=42|0ex5.mgf|4202|1197
+1=10|1ex5.mgf|6767|4479
+3=8|3ex5.mgf|3026|1876
+
+[~U]
+design1=11|0*2175|
+design2=11|0*3243|
+ex511=11|0*752|
+

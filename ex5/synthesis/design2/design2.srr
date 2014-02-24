@@ -1,0 +1,189 @@
+#Build: Synplify Pro C-2009.06, Build 063R, May 19 2009
+#install: C:\Program Files (x86)\Synplicity\fpga_C200906
+#OS:  6.1
+#Hostname: SIMULA
+
+#Implementation: design2
+
+#Mon Feb 24 09:29:49 2014
+
+$ Start of Compile
+#Mon Feb 24 09:29:49 2014
+
+Synopsys VHDL Compiler, version comp400rc, Build 020R, built May 20 2009
+Copyright (C) 1994-2009, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"C:\Program Files (x86)\Synplicity\fpga_C200906\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+Top entity isn't set yet!
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\design2.vhd":4:7:4:13|Synthesizing ex5.design2.design2 
+Post processing for ex5.design2.design2
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 24 09:29:49 2014
+
+###########################################################]
+Synopsys Xilinx Technology Mapper, Version map450rc, Build 029R, Built May 22 2009 15:55:09
+Copyright (C) 1994-2009, Synopsys Inc.  All Rights Reserved
+Product Version C-2009.06
+@W|Ignoring top level module 'ex5.design2' as specified in project file
+@N: MF249 |Running in 32-bit mode.
+@N: MF257 |Gated clock conversion enabled 
+Reading Xilinx I/O pad type table from file <C:\Program Files (x86)\Synplicity\fpga_C200906\lib\xilinx\x_io_tbl.txt> 
+Reading Xilinx Rocket I/O parameter type table from file <C:\Program Files (x86)\Synplicity\fpga_C200906\lib\xilinx\gttype.txt> 
+@N|Running in logic synthesis mode without enhanced optimization
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+
+
+#################### START OF GENERATED CLOCK OPTIMIZATION REPORT ####################[
+
+======================================================================================
+                                Instance:Pin        Generated Clock Optimization Status
+======================================================================================
+
+
+##################### END OF GENERATED CLOCK OPTIMIZATION REPORT #####################]
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+
+Clock Buffers:
+  Inserting Clock buffer for port clk,
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+------------------------------------------------------------
+
+Net buffering Report for view:ex5.design2(design2):
+No nets needed buffering.
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+@N: FX164 |The option to pack flops in the IOB has not been specified 
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Writing Analyst data base C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\synthesis\design2\design2.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 66MB)
+
+Writing EDIF Netlist and constraint files
+Reading Xilinx net attributes from file <C:\Program Files (x86)\Synplicity\fpga_C200906\lib\xilinx\netattr.txt> 
+C-2009.06
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Writing VHDL Simulation files
+Finished Writing VHDL Simulation files (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Starting Writing Gated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+@N: MF276 |Gated clock conversion enabled, but no gated clocks found in design 
+Finished Writing Gated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Starting Writing Generated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+@N: MF333 |Generated clock conversion enabled, but no generated clocks found in design 
+Finished Writing Generated Clock Conversion Report (Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+Found clock design2|clk with period 1000.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 24 09:29:51 2014
+#
+
+
+Top view:               design2
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for design2 
+
+Mapping to part: xc4vfx12sf363-12
+Cell usage:
+FDC             1 use
+LUT2            1 use
+
+I/O ports: 5
+I/O primitives: 5
+IBUF           3 uses
+IBUFG          1 use
+OBUF           1 use
+
+BUFG           1 use
+
+I/O Register bits:                  1
+Register bits not including I/Os:   0 (0%)
+
+Global Clock Buffers: 1 of 32 (3%)
+
+Total load per clock:
+   design2|clk: 1
+
+Mapping Summary:
+Total  LUTs: 1 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 24 09:29:51 2014
+
+###########################################################]

@@ -1,0 +1,68 @@
+%%% protect protected_file
+@E
+@ 
+#
+#
+#
+# Created by Synplify VHDL Compiler version comp400rc, Build 020R from Synplicity, Inc.
+# Copyright 1994-2009 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Mon Feb 24 09:29:49 2014
+#
+#
+#OPTIONS:"|-top|ex5.design2|-dspmac|-primux|-fixsmult|-sdff_counter|-infer_seqShift|-nram|-divnmod|-encrypt|-pro|-lite|-ll|2000|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|ex5|-lib|ex5|-lib|ex5"
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\bin\\c_vhdl.exe":1242891102
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\lib\\vhd\\location.map":1242828386
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\lib\\vhd\\std.vhd":1242745776
+#CUR:"C:\\Users\\Student\\Documents\\GitHub\\mod-anal-dig-sys\\ex5\\src\\ex5-1-1.vhd":1393229589
+#CUR:"C:\\Program Files (x86)\\Synplicity\\fpga_C200906\\lib\\vhd\\std1164.vhd":1242745776
+#CUR:"C:\\Users\\Student\\Documents\\GitHub\\mod-anal-dig-sys\\ex5\\src\\design1.vhd":1393230136
+#CUR:"C:\\Users\\Student\\Documents\\GitHub\\mod-anal-dig-sys\\ex5\\src\\design2.vhd":1393230331
+f "C:\Program Files (x86)\Synplicity\fpga_C200906\lib\vhd\std.vhd"; # file 0
+af .is_vhdl 1;
+f "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\ex5-1-1.vhd"; # file 1
+af .is_vhdl 1;
+f "C:\Program Files (x86)\Synplicity\fpga_C200906\lib\vhd\std1164.vhd"; # file 2
+af .is_vhdl 1;
+f "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\design1.vhd"; # file 3
+af .is_vhdl 1;
+f "C:\Users\Student\Documents\GitHub\mod-anal-dig-sys\ex5\src\design2.vhd"; # file 4
+af .is_vhdl 1;
+@E
+@ 
+ftell;
+@E@MR@cc::c(::R4dCRG68HC#oRM.8HC#o;M.
+RNP3PH#ER8D4N;
+PHR3#E_P84DR;P
+NR$3#Ml_VN"bRCRG6\:"B\#\zC\s#\k1080CM\F\7OCklM\0#\0tH]\kL\8lF-NNMDH-8o$-##C\\G\6\#\sO\6CG-44-38PE\C"
+G\6R"\B:\Cz#s\#\180kC\M0\O7FkMlC0\#\t]H0k\L\l-F8NDMN-o8H-##$\G\C6#\\s\O\8HC#o3M4P\E8"G
+C6"R\B\:\zs#C#1\\0Ck8M\0\7kFOl0CM#t\\Hk0]Ll\\FN8-M-ND8-Ho#\$#\6CG\s\#O8\\Co#HMP.3E"8\
+
+";
+@HR@nc::nd::O6RDO	RD
+	;N3HRs_0DFosHMCNlRD"O	
+";
+@HR@(c::(d::s(RC0#CR#sCC
+0;N3HRs_0DFosHMCNlRC"s#"C0;
+
+
+
+@HR@Uc::Ud::NdRR
+N;N3HRs_0DFosHMCNlR""N;
+
+
+
+@HR@gc::gd::LdRR
+L;N3HRs_0DFosHMCNlR""L;
+
+
+
+@FR@4c:j::d4dj:R$$R;H
+NR03sDs_FHNoMl"CR$
+";b@R@j::44::4.sR0k0CRsRkC0Csk;R
+b@:@j4::44R:.V#NDCNRVDR#CV#NDCb;
+Rc@@::.d6d:.:R44GPFsR.$_R.$_RLNR;R
+b@:@c4jg:::4g4VR8V$sRR$$R_O.RDs	RC0#C;H
+NR03sDs_FHNoMl"CR$
+";C
+;
+
